@@ -16,7 +16,7 @@ namespace WebApplication1
                 // Optionally set properties dynamically
                 WelcomeLabel1.Text = "Welcome";
                 WelcomeLabel1.DefaultUserName = "Visitor";
-                ProgressBar2.Percentage = 20; // Set initial value dynamically
+                //ProgressBar2.Percentage = 20; // Set initial value dynamically
 
                 var data = new List<Person>
                 {
@@ -32,6 +32,15 @@ namespace WebApplication1
                     new Person { Id = 10, Name = "Will Smith", Age = 50 }
                 };
 
+                //var accountDropdown = (CustomControll.AccountDropdown)FindControl("AccountDropdown1");
+                //if (accountDropdown != null)
+                //{
+                //    // Add accounts
+                //    accountDropdown.Accounts.Add(new ListItem("Account 1", "1"));
+                //    accountDropdown.Accounts.Add(new ListItem("Account 2", "2"));
+                //    accountDropdown.Accounts.Add(new ListItem("Account 3", "3"));
+                //}
+
                 //DynamicGrid1.DataSource = data;
             }
 
@@ -44,11 +53,11 @@ namespace WebApplication1
 
         }
 
-        protected void btnIncrease_Click(object sender, EventArgs e)
-        {
-            // Increment progress dynamically
-            ProgressBar2.Percentage = Math.Min(ProgressBar2.Percentage + 10, 100);
-        }
+        //protected void btnIncrease_Click(object sender, EventArgs e)
+        //{
+        //    // Increment progress dynamically
+        //    ProgressBar2.Percentage = Math.Min(ProgressBar2.Percentage + 10, 100);
+        //}
 
 
 

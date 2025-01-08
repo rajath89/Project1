@@ -22,23 +22,5 @@ namespace WebApplication1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::CustomControll.WelcomeLabel WelcomeLabel1;
-
-        /// <summary>
-        /// ProgressBar1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CustomControll.ProgressBar ProgressBar1;
-
-        /// <summary>
-        /// ProgressBar2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CustomControll.ProgressBar ProgressBar2;
     }
 }

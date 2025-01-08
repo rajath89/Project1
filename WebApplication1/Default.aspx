@@ -28,11 +28,14 @@
 
     <div>
         <!-- Static ProgressBar -->
-        <cc:ProgressBar ID="ProgressBar1" runat="server" Percentage="70" BarColor="#2196f3" BorderColor="#333" />
+        <%--<cc:ProgressBar ID="ProgressBar1" runat="server" Percentage="70" BarColor="#2196f3" BorderColor="#333" />--%>
     </div>
     <div>
         <!-- Dynamic ProgressBar -->
-        <cc:ProgressBar ID="ProgressBar2" runat="server" Percentage="50" BarColor="#ff5722" BorderColor="#555" />
+        <%--<cc:ProgressBar ID="ProgressBar2" runat="server" Percentage="50" BarColor="#ff5722" BorderColor="#555" />--%>
+<%--        <form id="form1" runat="server">
+        <cc:AccountDropdown ID="AccountDropdown1" runat="server" />
+    </form>--%>
     </div>
 
 

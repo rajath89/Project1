@@ -54,7 +54,7 @@
             </div>
         </nav>
 <div>
-    Enter a word:
+<%--    Enter a word:
     <br />
     <asp:TextBox ID="TextBox1" runat="server" style="width:198px"></asp:TextBox>
     
@@ -64,7 +64,10 @@
     
     <br /> <br />
     
-    <cc:PalindromeControl ID="PalindromeControl" runat="server" Text="" />
+    <cc:PalindromeControl ID="PalindromeControl" runat="server" Text="" />--%>
+
+        <cc:AccountDropdown ID="AccountDropdown1" runat="server" />
+
 </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
